@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: aqua;
+            border: 1px solid;
+            display: none;
+        }
+       .a{
+        display: inline-block;
+        width: 100px;
+        padding: 10px;
+
+       }
+       .abc{
+        border: 0cap;
+        background-color: brown;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-bottom: 10px;
+        
+       }
+       .container > .a div:hover{
+        background-color: red;
+        color: blanchedalmond;
+       }
+       
+       
+       .abc:focus-within + .container{
+        display: block;
+       }
+       
+    </style>
+</head>
+<body>
+   <button class="abc">my aadhar</button>
+<div class="container">
+    <div class="a">
+        <div>update document</div> <br>
+        <div>check update aadhar status</div> <br>
+        <div>aadhar enrollement</div> <br>
+        <div>update forms</div>
+    </div>
+    <div class="a">
+        <div>update document</div> <br>
+        <div>check update aadhar status</div> <br>
+        <div>aadhar enrollement</div> <br>
+        <div>update forms</div>
+    </div>
+    <div class="a"> 
+        <div>update document</div> <br>
+        <div>check update aadhar status</div> <br>
+        <div>aadhar enrollement</div> <br>
+        <div>update forms</div>
+    </div>
+</div>
+    
+</body>
+</html>
